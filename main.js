@@ -1,8 +1,9 @@
 "use strict";
 
-let a = 1.5;
-let b = 0.75;
-alert('sum = ' + (a + b));
+let a = -100;
+alert(a);
+let b = 20;
+alert(-b);
 /*
 	многострочный комментарий
 */
