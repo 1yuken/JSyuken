@@ -1,30 +1,9 @@
 "use strict";
 
-a = '5' + '2';
-alert(a);
-a = '5' + 2;
-alert(a);
-a = 5 + '2';
-alert(a);
-a = 5 + 2;
-alert(a);
-a = '5' * '2';
-alert(a);
-a = '5' - '2';
-alert(a);
-a = '5' / '2';
-alert(a);
-a = '5' % '2';
-alert(a);
-a = '5s' * '2';
-alert(a);
-a = '5s' + '2';
-alert(a);
-a = (-'5') + (-'2');
-alert(a);
-a = '5' * 1 + '2' * 1;
-alert(a);
-a = '5' * '1' + '2' * '1';
-alert(a);
-a = '' + 3 + 1;
-alert(a);
+let a = '10';
+let b = '20';
+alert(Number(a) + Number(b));
+
+let c = '2';
+let d = '3';
+alert(+c + +d);
