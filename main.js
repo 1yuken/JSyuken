@@ -1,20 +1,14 @@
 "use strict";
 
-let a;
-alert(a);
+let num = 123;
+console.log(num);
 
-let b = null;
-alert(b);
+let num1 = 123;
+let num2 = 456;
+let num3 = 789;
+console.log(num1, num2, num3);
 
-let c = true;
-alert(c);
+console.log(123);
+console.log('123'); // строка выводится черным цветом
 
-let d = false;
-let(d);
-
-let str = 'hello';
-let str1 = 'world';
-alert(str * str1);
-
-alert(10 / 0);
-alert(-10 / 0);
+alert(eee); // ошибка
