@@ -1,2 +1,6 @@
 "use strict";
-alert('Im Osman');
+alert('Im Osman'); // комментарий
+
+/*
+	многострочный комментарий
+*/
