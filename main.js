@@ -1,9 +1,12 @@
 "use strict";
 
-let num = parseInt('5px');
-let num1 = parseInt('6px');
-alert(num + num1);
+let num = 1;
+let num1 = 2;
+alert(String(num) + String(num1));
 
-let num2 = parseFloat('5.5px');
-let num3 = parseFloat('6.25px');
-alert(num2 + num3 + 'px');
+let num2 = 12345;
+alert(String(num2).length);
+
+let num3 = 5;
+let num4 = 2;
+alert(String(num3).length + String(num4).length);
