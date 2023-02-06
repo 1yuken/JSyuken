@@ -1,11 +1,20 @@
 "use strict";
 
-let str1 = 'xxx';
-let str2 = 'yyy';
-let txt  = `aaa ' ${str1} ' bbb ' ${str2} ' ccc`;
-alert(txt);
+let a;
+alert(a);
 
-let str = `a
-b
-c`;
-alert(str);
+let b = null;
+alert(b);
+
+let c = true;
+alert(c);
+
+let d = false;
+let(d);
+
+let str = 'hello';
+let str1 = 'world';
+alert(str * str1);
+
+alert(10 / 0);
+alert(-10 / 0);
