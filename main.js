@@ -1,9 +1,10 @@
 "use strict";
 
-a = 'abcde';
-alert(a[0]+ ' ' + a[2]+ ' ' +a[4]);
-b = a[4] + a[3] + a[2] + a[1] + a[0];
-alert(b);
-str = 'abcde';
-let num = 3;
-alert(str[num]);
+let str = 'abcde';
+alert(str[str.length - 1]);
+
+let str1 = 'abcde';
+alert(str1[str1.length - 2]);
+
+let str2 = 'abcde';
+alert(str2[str2.length - 3]);
