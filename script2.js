@@ -1,1 +1,1 @@
-alert('valorant cyber');
+alert('valorant cybersport');
