@@ -1,12 +1,9 @@
 "use strict";
 
-let num = 1;
-let num1 = 2;
-alert(String(num) + String(num1));
-
-let num2 = 12345;
-alert(String(num2).length);
-
-let num3 = 5;
-let num4 = 2;
-alert(String(num3).length + String(num4).length);
+alert(true + 3);
+alert(true + true);
+alert(true - true);
+alert(true + false);
+alert('1' + true);
+alert( String(true) + 1 );
+alert( String(true) + Number(true) );
